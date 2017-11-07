@@ -83,7 +83,7 @@
     "style-loader": "^0.18.2",
     "supports-color": "^4.1.0",
     "tree-kill": "^1.1.0",
-    "webpack": "^3.5.6"
+    "webpack": "^3.8.1"
   },
   "license": "SEE LICENSE IN LICENSE",
   "jest": {
@@ -97,12 +97,12 @@
       "<rootDir>/test/unit/index.js"
     ],
     "transformIgnorePatterns": [
-      "/node_modules/(?!handsontable)\\w+"
+      "/node_modules/@reactual/(?!handsontable)\\w+"
     ],
     "moduleNameMapper": {
       "^handsontable-pro(.*)$": "<rootDir>/src$1",
-      "^handsontable(.*)$": "<rootDir>/node_modules/handsontable/src$1",
-      "^walkontable(.*)$": "<rootDir>/node_modules/handsontable/src/3rdparty/walkontable/src$1",
+      "^handsontable(.*)$": "<rootDir>/node_modules/@reactual/handsontable/src$1",
+      "^walkontable(.*)$": "<rootDir>/node_modules/@reactual/handsontable/src/3rdparty/walkontable/src$1",
       "\\.css$": "<rootDir>/test/__mocks__/styleMock.js"
     }
   }

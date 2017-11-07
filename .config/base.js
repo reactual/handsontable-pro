@@ -47,7 +47,7 @@ module.exports.create = function create(envArgs) {
           test: /\.js$/,
           loader: 'babel-loader',
           exclude: [
-            /node_modules\/(?!handsontable)/,
+            /node_modules\/@reactual\/(?!handsontable)/,
           ],
           options: {
             cacheDirectory: false, // Disable cache. Necessary for injected variables into source code via hot.config.js
