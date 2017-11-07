@@ -23,7 +23,7 @@ module.exports.create = function create(envArgs) {
     },
     resolve: {
       alias: {
-        handsontable: path.resolve(__dirname, '../node_modules/handsontable/src/'),
+        handsontable: path.resolve(__dirname, '../node_modules/@reactual/handsontable/src/'),
       }
     },
     module: {
